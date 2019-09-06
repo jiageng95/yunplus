@@ -1,0 +1,75 @@
+/* miniprogram/pages/index/index.wxss */
+.index {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30rpx;
+  background: #fff;
+}
+.list-item {
+  width: 48%;
+  margin-bottom: 30rpx;
+  border-radius: 8rpx 8rpx 0 0;
+  box-shadow: 0 2rpx 10rpx #ddd;
+  overflow: hidden;
+  margin-right: 25rpx;
+}
+.list-item:nth-of-type(2n) {
+  margin-right: 0;
+}
+.list-item .item-content {
+  padding: 15rpx;
+}
+.list-item .item-img {
+  width: 100%;
+  height: 300rpx;
+  display: block;
+}
+.item-content .item-tit {
+  font-size: 14px;
+  margin-bottom: 5rpx;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+.item-content .item-tit image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 10rpx;
+}
+.item-content .item-store {
+  font-size: 12px;
+  color: #999;
+  display: block;
+}
+.item-content .item-price {
+  display: flex;
+  align-items: center;
+}
+.item-content .item-price .now-price {
+  font-size: 14px;
+  font-weight: 800;
+  color: crimson;
+  margin-right: 10rpx;
+}
+.item-content .item-price .price {
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+  flex: 1;
+}
+.item-content .item-price .discount {
+  font-size: 12px;
+  text-align: right;
+  padding: 0 15rpx;
+  display: flex;
+  align-items: center;
+}
+.item-content .item-price .discount image {
+  width: 45rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.item-content .sold {
+  font-size: 12px;
+  color: #ccc;
+}

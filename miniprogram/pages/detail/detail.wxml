@@ -1,0 +1,29 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<view class="goodsDetail">
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" indicator-color="rgba(255,255,255,0.5)">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="header">
+    <view class="header-tit"><image src="../../images/tmall.png"></image>iPhoneX钢化膜</view>
+    <view class="header-con">
+      <text class="now-price">券后<text class="bold">¥5.9</text></text>
+      <text class="price">15.9</text>
+      <text class="sold">24828件已售</text>
+    </view>
+    <view class="discount">
+      <view class="discount-l">
+        <text class="discount-tit">优惠券<text>¥10</text></text>
+        <text class="discount-date">使用期限：2019.09.04-2019.09.07</text>
+        <image class="discount-gift" src="../../images/gift.png"></image>
+      </view>
+      <view class="discount-r">
+        <button class="receive-btn">立即领取</button>
+      </view>
+    </view>
+  </view>
+</view>

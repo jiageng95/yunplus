@@ -1,0 +1,16 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="index">
+  <view class="list-item" wx:for="{{goodsList}}" wx:key="{{index}}" bindtap="jumpDetail">
+    <image class="item-img" src="https://c-ssl.duitang.com/uploads/item/201201/10/20120110180731_HQLdC.thumb.700_0.jpg" mode="aspectFill"></image>
+    <view class="item-content">
+      <view class="item-tit"><image src="../../images/tmall.png"></image>iPhoneX钢化膜</view>
+      <text class="item-store">苹果旗舰店</text>
+      <view class="item-price">
+        <text class="now-price">¥3.9</text>
+        <text class="price">8.9</text>
+        <view class="discount"><image src="../../images/discount.png"></image>¥5</view>
+      </view>
+      <text class="sold">154241已售</text>
+    </view>
+  </view>
+</view>
