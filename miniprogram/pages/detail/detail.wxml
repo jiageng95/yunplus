@@ -26,4 +26,10 @@
       </view>
     </view>
   </view>
+  <view class="desc">
+    <view class="desc-tip">推荐理由</view>
+    <view class="desc-con">
+      毛绒材质，摸着炒鸡舒服，炒鸡可爱的小鸭子造型，姑娘们最爱的公仔包包~出门拍照必备神器，装点小东西，又方便又可爱~
+    </view>
+  </view>
 </view>
