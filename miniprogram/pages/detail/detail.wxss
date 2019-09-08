@@ -13,7 +13,7 @@
 }
 .header .header-tit {
   color: #333;
-  font-size: 16px;
+  font-size: 32rpx;
   display: flex;
   align-items: center;
   margin-bottom: 20rpx;
@@ -30,24 +30,24 @@
 }
 .header .header-con .now-price {
   color: crimson;
-  font-size: 14px;
+  font-size: 28rpx;
   margin-right: 20rpx;
   line-height: 1;
 }
 .header .header-con .now-price .bold {
-  font-size: 18px;
+  font-size: 36rpx;
   font-weight: 800;
   margin-left: 15rpx;
 }
 .header .header-con .price {
-  font-size: 12px;
+  font-size: 24rpx;
   text-decoration: line-through;
   line-height: 1;
   color: #999;
 }
 .header .header-con .sold {
   flex: 1;
-  font-size: 12px;
+  font-size: 24rpx;
   line-height: 1;
   text-align: right;
   color: #999;
@@ -70,18 +70,18 @@
   padding: 40rpx;
 }
 .header .discount .discount-l .discount-tit {
-  font-size: 16px;
+  font-size: 32rpx;
   color: #fff;
   margin-bottom: 10rpx;
   line-height: 1;
 }
 .header .discount .discount-l .discount-tit text {
-  font-size: 20px;
+  font-size: 40rpx;
   font-weight: 800;
   margin-left: 10rpx;
 }
 .header .discount .discount-l .discount-date {
-  font-size: 12px;
+  font-size: 24rpx;
   color: #fff;
 }
 .header .discount .discount-l .discount-gift {
@@ -153,8 +153,20 @@
   line-height: 36rpx;
   margin-right: 20rpx;
   letter-spacing: 1rpx;
+  margin-top: 5rpx;
 }
 .desc .desc-con {
-  font-size: 12px;
+  font-size: 24rpx;
   color: #999;
+}
+.detail-tit {
+  font-size: 24rpx;
+  padding: 20rpx;
+  color: #333;
+  line-height: 1;
+  background: #fff;
+}
+.detail-con image {
+  width: 100%;
+  display: block;
 }

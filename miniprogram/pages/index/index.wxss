@@ -25,7 +25,7 @@
   display: block;
 }
 .item-content .item-tit {
-  font-size: 14px;
+  font-size: 28rpx;
   margin-bottom: 5rpx;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@
   margin-right: 10rpx;
 }
 .item-content .item-store {
-  font-size: 12px;
+  font-size: 24rpx;
   color: #999;
   display: block;
 }
@@ -46,19 +46,19 @@
   align-items: center;
 }
 .item-content .item-price .now-price {
-  font-size: 14px;
+  font-size: 28rpx;
   font-weight: 800;
   color: crimson;
   margin-right: 10rpx;
 }
 .item-content .item-price .price {
-  font-size: 12px;
+  font-size: 24rpx;
   color: #999;
   text-decoration: line-through;
   flex: 1;
 }
 .item-content .item-price .discount {
-  font-size: 12px;
+  font-size: 24rpx;
   text-align: right;
   padding: 0 15rpx;
   display: flex;
@@ -70,6 +70,6 @@
   margin-right: 10rpx;
 }
 .item-content .sold {
-  font-size: 12px;
+  font-size: 24rpx;
   color: #ccc;
 }

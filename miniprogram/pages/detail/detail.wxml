@@ -2,9 +2,9 @@
 <view class="goodsDetail">
   <swiper class="swiper" indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" indicator-color="rgba(255,255,255,0.5)">
-    <block wx:for="{{imgUrls}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
       <swiper-item>
-        <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+        <image src="{{item}}" class="slide-image" mode="aspectFill" />
       </swiper-item>
     </block>
   </swiper>
@@ -31,5 +31,9 @@
     <view class="desc-con">
       毛绒材质，摸着炒鸡舒服，炒鸡可爱的小鸭子造型，姑娘们最爱的公仔包包~出门拍照必备神器，装点小东西，又方便又可爱~
     </view>
+  </view>
+  <view class="detail">
+    <view class="detail-tit">商品图文详情</view>
+    <view class="detail-con"></view>
   </view>
 </view>

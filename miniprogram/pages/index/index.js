@@ -12,7 +12,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // 调用云函数
+    wx.cloud.callFunction({
+      name: 'goodsList',
+      data: {},
+      success: res => {
+        console.log('[云函数] [goodsList] user openid: ', res)
+      },
+      fail: err => {
+        console.error('[云函数] [goodsList] 调用失败', err)
+      }
+    })
   },
 
   /**
